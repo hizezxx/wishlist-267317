@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#F7F6F2"><meta name="description" content="Хочу — учебный список желаний. Сохраняйте идеи подарков, бронируйте и пробуйте совместный сбор."><title>Хочу — список желаний</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head>
+<body>
+<a class="skip" href="#main">К содержимому</a>
+<header class="site-header"><a class="wordmark" href="#/owner" aria-label="Хочу, мой список">хочу<span>.</span></a><nav aria-label="Режим просмотра"><a href="#/owner" data-mode="owner">Мой список</a><a href="#/list" data-mode="list">Для друзей</a></nav><div class="identity"><span class="avatar" aria-hidden="true">Н</span><span>Николай</span></div></header>
+<div id="storage-warning" class="storage-warning" hidden role="alert"></div>
+<main id="main" tabindex="-1"><div class="loading">Открываем список желаний…</div></main>
+<footer class="site-footer"><div><a class="wordmark small" href="#/owner">хочу<span>.</span></a><p>Хорошие подарки начинаются с маленькой подсказки.</p></div><div class="footer-meta"><span>Учебный проект · 267317</span><span>Реальные товары и цены. Учебные брони и взносы сохраняются только в этом браузере.</span><button class="text-button" data-action="reset">Сбросить демонстрацию</button><a href="sources.html">Цены и источники фотографий</a></div></footer>
+<dialog id="modal" aria-labelledby="modal-title"><div class="dialog-top"><span class="eyebrow" id="modal-kicker">МОЙ СПИСОК</span><button class="icon-button" id="close-modal" aria-label="Закрыть окно">×</button></div><div id="modal-body"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<noscript>Для работы учебного приложения включите JavaScript в настройках браузера.</noscript>
+<script type="module" src="app.js"></script>
+</body></html>
